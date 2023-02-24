@@ -22,6 +22,11 @@ export const Menu = component$<Props>(({ onClose$ }) => {
     },
     { label: 'Card', path: `/docs/${appState.theme.toLowerCase()}/card` },
     {
+      label: 'Checkbox',
+      path: `/docs/${appState.theme.toLowerCase()}/checkbox`,
+    },
+
+    {
       label: 'Collapse',
       path: `/docs/${appState.theme.toLowerCase()}/collapse`,
     },
